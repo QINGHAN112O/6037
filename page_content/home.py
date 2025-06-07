@@ -6,11 +6,10 @@ def home_page():
     left_col, right_col = st.columns(2)
     left_col.markdown(
         """
-        <h4>Sarah Johnson</h4>
-        <p>Recent Master's Graduate in Marketing<br>
+        <h4>Qinghan Chen</h4>
+        <p>Recent Bachelor's Graduate in Economics<br>
         Chinese University of Hong Kong<br>
-        12 Chak Cheung St., Ma Liu Shui, HKSAR<br>
-        <a href="mailto:sarah.johnson@example.com">sarah.johnson@example.com</a></p>
+        <a href="mailto:zhaozhaochen2001@163.com">zhaozhaochen2001@163.com</a></p>
         """,
         unsafe_allow_html=True
     )
@@ -18,7 +17,7 @@ def home_page():
     # add a photo to the right column
     # 使用绝对路径加载图片
     image_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 
-                             "static", "images", "image.png")
+                             "static", "images", "image.jpg")
     
     if os.path.exists(image_path):
         image = Image.open(image_path)
@@ -31,11 +30,11 @@ def home_page():
     st.markdown(
         """
         ### About Me
-        I am a recent master's graduate in Data Science from the University of XYZ, eager to apply my knowledge and skills in a professional setting. During my academic journey, I developed a strong foundation in statistical analysis, machine learning, and data visualization.
+        I graduated from the University of International Business and Economics with a major in International Economics and Trade. I have excellent academic performance and outstanding English proficiency, achieving an IELTS score of 7.5 and passing the TEM-8 (Test for English Majors - Band 8) with distinction.
 
-        As part of my master's program, I completed several projects that involved working with real-world datasets and applying various data science techniques. These projects allowed me to gain hands-on experience in data preprocessing, exploratory data analysis, model building, and evaluation.
+        During my undergraduate studies, I actively participated in various academic, business, and entrepreneurship competitions. A cultural and educational entrepreneurship project I led as an undergraduate was selected as a national key-supported entrepreneurship project. I have also interned in the industry research department of a securities firm, at Meituan, and in the marketing department of a foreign enterprise. 
 
-        I am passionate about leveraging data to drive insights and make informed decisions. I am a quick learner, a collaborative team player, and possess strong problem-solving skills. I am excited to contribute my skills and grow as a data science professional in a dynamic and challenging environment.
+        Currently, I am pursuing a master's degree in Marketing at the Business School of The Chinese University of Hong Kong, focusing on big data-related marketing courses in the Hong Kong market.
         """
     )
 
@@ -43,12 +42,9 @@ def home_page():
         """
         ### Skills
         - Programming Languages: Python, R
-        - Data Analysis: Pandas, NumPy, Matplotlib, Seaborn
-        - Machine Learning: Scikit-learn, TensorFlow, Keras
-        - Database: SQL, MongoDB
-        - Data Visualization: Tableau, Power BI
-        - Statistical Analysis: Hypothesis Testing, Regression Analysis
-        - Communication: Presentation Skills, Technical Writing
+        - Office: Word, Excel, PPT, SPSS, MindManager
+        - Creativity: Photoshop, Premiere, Xiumi
+        - Language: Mandarin (Native), English (CET-6: 622; IELTS: 7.5; GRE: 325), French (Basic Conversational Level)
         """
     )
 

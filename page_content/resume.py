@@ -12,87 +12,60 @@ def resume_page():
         # Display the download button
         st.download_button(label="Download Resume",
                         data=PDFbyte,
-                        file_name="Jane_Doe_Resume.pdf",
+                        file_name="Qinghan_Resume.pdf",
                         mime='application/octet-stream')
     else:
         st.warning("Resume PDF file not found")
 
-    st.title("Jane Doe")
+    st.title("Qinghan Chen")
 
     st.header("Contact Information")
     st.markdown("""
-    - **Email:** jane.doe@example.com
-    - **Phone:** (123) 456-7890
-    - **LinkedIn:** [linkedin.com/in/janedoe](https://linkedin.com/in/janedoe)
-    - **GitHub:** [github.com/janedoe](https://github.com/janedoe)
-    - **Address:** 123 Main St, Anytown, USA
+    - **Email:** zhaozhaochen2001@163.com
+    - **Phone:** +852 55347874
     """)
 
-    st.header("Professional Summary")
+    st.header("Internship Experience")
     st.markdown("""
-    Highly skilled software engineer with over 5 years of experience in developing scalable web applications. Proven ability to lead teams, manage projects, and improve software performance. Seeking a challenging role to utilize my technical expertise and problem-solving skills.
-    """)
+    **Comprehensive Operation Intern, Beijing Sankuai Network Technology Co., LTD**
+    - *June 2023 - September 2023*
+    - Conducted research into the culture and tourism industry and carried out benchmarking analysis to facilitate the development of China Culture and Tourism Think Tank; analyzed data through dashboards and wrote reports on the potential attractions of scenery areas.
+    - Controlled the density of stores as Points of Interest (POIs ) and Areas of Interest (AOIs) in the high street and marketplace mapping to ensure the digital product informativeness and accuracy in collaboration with business analysts and product managers
+    - Broke down the overall objective of product operation in a quantitative approach and offered development strategies and suggestions on improvement based on thorough data analysis regarding the POI density, Unique Visitor (UV), etc.
+    - Formulated the Standard Operating Procedure (SOP) of Meituan monthly marketplace-themed events, designed the feature pages based on collected trending topics, drove engagement by selecting appropriate webinar topics and invited prospective brands to set up market stalls.
+    - Responsible for the operation of 10 pilot projects of “Lehuo High Street”, a consumption-driving program initiated by the Chinese government and Meituan, by writing publicity copy, planning marketing events, sorting out the list of participating merchants, and developing, testing, updating and maintaining the Web page for the events.
 
-    st.header("Work Experience")
-    st.markdown("""
-    **Software Engineer, TechCorp Inc.**
-    - *June 2019 – Present*
-    - Developed and maintained web applications using Python and JavaScript.
-    - Improved application performance by 30% through code optimization.
-    - Led a team of 5 developers, conducting code reviews and mentoring junior engineers.
-    - Collaborated with cross-functional teams to define project requirements and deliverables.
-
-    **Junior Software Developer, WebSolutions LLC**
-    - *January 2017 – May 2019*
-    - Assisted in the development of client-side applications using HTML, CSS, and JavaScript.
-    - Participated in agile sprints and contributed to project planning and task estimation.
-    - Implemented unit tests and conducted debugging to ensure code quality.
+    **Industry Research Intern, Great Wall Securities**
+    - *February 2023 - May 2023*
+    - Collected and analyzed statistics regarding macroeconomic development, building materials companies and the overall industry for two independently-completed in-depth company reports and three jointly-formulated in-depth company reports.
+    - Independently wrote 12 annual and quarterly report reviews, tracked market dynamics, updated industry daily and weekly reports, and managed the team's official WeChat account.
     """)
 
     st.header("Education")
     st.markdown("""
-    **Bachelor of Science in Computer Science**
-    - University of Anytown
-    - *Graduated: May 2016*
-    - GPA: 3.8/4.0
+    **Bachelor of Economics in International Economics and Trade**
+    - University of International Business and Economics
+    - *Graduated: June 2024*
+    - GPA: 3.7/4.0
     """)
 
     st.header("Skills")
     st.markdown("""
-    - **Programming Languages:** Python, JavaScript, Java, C++
-    - **Web Technologies:** HTML, CSS, React, Node.js, Django
-    - **Databases:** MySQL, PostgreSQL, MongoDB
-    - **Tools:** Git, Docker, Jenkins, AWS
-    - **Soft Skills:** Team Leadership, Project Management, Problem-Solving, Communication
-    """)
-
-    st.header("Certifications")
-    st.markdown("""
-    - AWS Certified Solutions Architect
-    - Certified Scrum Master
-    """)
-
-    st.header("Projects")
-    st.markdown("""
-    **E-commerce Website**
-    - Developed a full-stack e-commerce application using React and Django.
-    - Integrated payment gateways and implemented user authentication.
-
-    **Data Analysis Tool**
-    - Created a Python-based tool for analyzing large datasets and visualizing results.
-    - Used pandas and matplotlib libraries for data manipulation and plotting.
+    - **Programming Languages:** Python, R
+    - **Office:** Word, Excel, PPT, SPSS, MindManager
+    - **Creativity:** Photoshop, Premiere, Xiumi
     """)
 
     st.header("Languages")
     st.markdown("""
-    - **English:** Native
-    - **Spanish:** Intermediate
+    - **Mandarin:** Native
+    - **English:** CET-6: 622; IELTS: 7.5; GRE: 325
+    - **French:** Basic Conversational Level
     """)
 
     st.header("Interests")
     st.markdown("""
-    - Open-source contributions
-    - Blogging about technology trends
+    - Arts & Museum
     - Hiking and outdoor activities
     """)
 
