@@ -32,30 +32,3 @@ def experience_page():
     """)
     
     st.markdown("---")
-    
-    
-    # Add the interactive visualization demo
-    with st.expander("Interactive Data Visualization Demo", expanded=False):
-        st.markdown("**Description:** An interactive demonstration of various data visualization techniques.")
-        display_interactive_chart()
-    
-    st.markdown("---")
-    
-    st.markdown("## Professional Skills")
-    
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.markdown("""
-        ### Computer Skills
-        - **Office:** Word, Excel, PPT, SPSS, MindManager
-        - **Creativity:** Photoshop, Premiere, Xiumi
-        """)
-        
-    with col2:
-        st.markdown("""
-        ### Language Skills
-        - **Communication:** Mandarin (Native), English (CET-6: 622; IELTS: 7.5; GRE: 325), French (Basic Conversational Level)
-        """)
-    
-    st.markdown("---") 
