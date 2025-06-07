@@ -33,22 +33,6 @@ def experience_page():
     
     st.markdown("---")
     
-    st.markdown("## Entrepreneurship Projects")
-    
-    Projects = [
-        {
-            "title": "Pocket Museum",
-            "description": "The Pocket Museum aimed to provide entertaining and informative educative activities regarding culture, museology, and aesthetics for Beijing-based primary and secondary school students, develop a famous cultural brand by creating immersive experience, and design and organize innovative programs such as orienteering research activities",
-            "Responsibility": "Co-authored a business plan of over 46,000 words by organizing an entrepreneurship team of 10 in a commercial project, which was recognized as a prioritized entrepreneurship project of the 'National College Students Innovation and Entrepreneurship Training Program', and was the recipient of a RMB 50,000 sponsorship from UIBE after three rounds of achievement assessment; Formulated the project guiding development strategy and tailored operation tactics based on market analysis, explored methods of capitalizing on trending cultural topics and the fan base, and made HTML5 animations and designed User Interface (UI) for better interactive experience, leading to the successful launch of two original immersive museum-themed script games",
-            "outcome": "Approached partners and investors for cooperation, launched 18 products in 15 marketing campaigns, which won rave comments from over 300 clients, of which over 200 became regular customers."
-        }
-    ]
-    
-    for i, project in enumerate(projects):
-        with st.expander(f"{project['title']}", expanded=i==0):
-            st.markdown(f"**Description:** {project['description']}")
-            st.markdown(f"**Responsibility:** {', '.join(project['responsibility'])}")
-            st.markdown(f"**Outcome:** {project['outcome']}")
     
     # Add the interactive visualization demo
     with st.expander("Interactive Data Visualization Demo", expanded=False):
